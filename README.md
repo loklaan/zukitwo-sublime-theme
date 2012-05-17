@@ -4,7 +4,7 @@ Based off [Soda Theme](https://github.com/buymeasoda/soda-theme) for Sublime Tex
 
 ## Design
 
-![Soda Ubuntu Light Theme](http://loklaan.github.com/zukitwo-sublime-theme/images/screenshots/zlight.png)
+![Soda Ubuntu Light Theme](https://github.com/loklaan/zukitwo-sublime-theme/raw/gh-pages/images/zlight.png)
 
 ## Installation
 
