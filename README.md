@@ -38,3 +38,5 @@ To configure Sublime Text 2 to use the theme:
 ### Thanks!
 
 A big thanks to the creators of [Soda](https://github.com/buymeasoda) and [Zukitwo](http://lassekongo83.deviantart.com)!!
+
+This is still in the works for I am yet to do the dark theme. Feel free to drop me [feedback](mailto:loklaan@gmail.com).
