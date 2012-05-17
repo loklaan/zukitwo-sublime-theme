@@ -2,6 +2,8 @@
 
 Based off [Soda Theme](https://github.com/buymeasoda/soda-theme) for Sublime Text 2 and [Zukitwo](http://lassekongo83.deviantart.com/art/Zukitwo-203936861) the GTK3 theme.
 
+The finished theme will include both a light and dark theme. So far, the light theme has been finished.
+
 ## Design
 
 ![Soda Ubuntu Light Theme](https://github.com/loklaan/zukitwo-sublime-theme/raw/gh-pages/images/zlight.png)
@@ -19,7 +21,7 @@ Go to your Sublime Text 2 `Packages` directory and clone the theme repository us
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Soda`
+* Unzip the files and rename the folder to `Theme - Zukitwo`
 * Copy the folder to your Sublime Text 2 `Packages` directory
 
 ## Activating the theme
