@@ -1,10 +1,10 @@
-# Soda Theme
+# Zukitwo Sublime Text 2 Theme
 
-Dark and light custom UI themes for Sublime Text 2.
+Based off [Soda Theme](https://github.com/buymeasoda/soda-theme) for Sublime Text 2 and [Zukitwo](http://lassekongo83.deviantart.com/art/Zukitwo-203936861) the GTK3 theme.
 
 ## Design
 
-![Soda Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=7)
+![Soda Ubuntu Light Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-light-theme.png?v=7)
 
 ![Soda Dark Theme](http://buymeasoda.github.com/soda-theme/images/screenshots/soda-dark-theme.png?v=7)
 
