@@ -424,50 +424,50 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [156, 156, 156],
+        "color": [220, 220, 220],
         "font.bold": true,
-        "shadow_color": [235, 235, 235],
+        "shadow_color": [40, 40, 40],
         "shadow_offset": [0, 1]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [100, 100, 100],
-        "shadow_color": [235, 235, 235],
+        "color": [220, 220, 220],
+        "shadow_color": [40, 40, 40],
         "shadow_offset": [0, 1]
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [45, 45, 45],
-        "shadow_color": [233, 238, 223],
+        "color": [245, 245, 245],
+        "shadow_color": [20, 20, 20],
         "shadow_offset": [0, 1]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [0, 0, 0]
+        "color": [255, 255, 255]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
-        "color": [20, 20, 20],
+        "color": [220, 220, 220],
         "font.bold": true
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "settings": ["bold_folder_labels"],
-        "color": [0, 0, 0]
+        "color": [255, 255, 255]
     },
     // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255],
-        "shadow_color": [90, 90, 90],
+        "color": [245, 245, 245],
+        "shadow_color": [10, 10, 10],
         "shadow_offset": [1, 1]
     },
     // Sidebar file close
