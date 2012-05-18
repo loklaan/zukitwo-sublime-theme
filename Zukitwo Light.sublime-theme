@@ -468,7 +468,7 @@
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "color": [255, 255, 255],
         "shadow_color": [90, 90, 90],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [1, 1]
     },
     // Sidebar file close
     {
