@@ -39,7 +39,8 @@
         // Hover tab setting
         "layer2.texture": "Theme - Zukitwo/Zukitwo Light/tab-hover.png",
         "layer2.inner_margin": [18, 4],
-        "layer2.opacity": 0.0
+        //  Hover tab smooth fadeout
+        "layer2.opacity": { "target": 0.0, "speed": 5, "interpolation": "smoothstep" }
     },
     {
         // Tab close state
@@ -436,6 +437,14 @@
         "shadow_color": [235, 235, 235],
         "shadow_offset": [0, 1]
     },
+    // Sidebar entry selected
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [255, 255, 255],
+        "shadow_color": [90, 90, 90],
+        "shadow_offset": [1, 1]
+    },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
@@ -461,14 +470,6 @@
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
         "settings": ["bold_folder_labels"],
         "color": [0, 0, 0]
-    },
-    // Sidebar entry selected
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255],
-        "shadow_color": [90, 90, 90],
-        "shadow_offset": [1, 1]
     },
     // Sidebar file close
     {
@@ -571,13 +572,28 @@
         // Pressed button setup
         "layer1.texture": "Theme - Zukitwo/Zukitwo Light/btn-large-on.png",
         "layer1.opacity": 0.0,
-        "layer1.inner_margin": [6, 6]
+        "layer1.inner_margin": [6, 6],
+        // Hover button setup
+        "layer2.texture": "Theme - Zukitwo/Zukitwo Light/btn-large-hover.png",
+        "layer2.opacity": { "target": 0.0, "speed": 5, "interpolation": "smoothstep" },
+        "layer2.inner_margin": [6, 6]
     },
     {
         // Pressed button state
         "class": "button_control",
         "attributes": ["pressed"],
         "layer1.opacity": 1.0
+    },
+        // Hover button state
+    {
+        "class": "button_control",
+        "attributes": ["pressed", "hover"],
+        "layer2.opacity": 0.0
+    },
+    {
+        "class": "button_control",
+        "attributes": ["hover"],
+        "layer2.opacity": 1.0
     },
 
 //
@@ -724,7 +740,9 @@
         "layer0.texture": "Theme - Zukitwo/Zukitwo Light/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "content_margin": [4, 4]
+        "content_margin": [4, 4],
+        "layer1.texture": "Theme - Zukitwo/Zukitwo Light/btn-small-hover.png",
+        "layer1.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" }
     },
     // Button group left
     {
@@ -746,6 +764,12 @@
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Zukitwo/Zukitwo Light/btn-small.png",
         "layer0.opacity": 1.0
+    },
+    // Button hover
+    {
+        "class": "icon_button_control",
+        "attributes": ["hover"],
+        "layer1.opacity": 1.0
     },
 
 //
