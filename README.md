@@ -6,7 +6,7 @@ The finished theme will include both a light and dark theme. So far, the light t
 
 ## Design
 
-![Soda Ubuntu Light Theme](http://dl.dropbox.com/u/17323455/images/zlight.png)
+![Soda Ubuntu Light Theme](http://dl.dropbox.com/u/17323455/images/z-light.png)
 
 ## Installation
 
