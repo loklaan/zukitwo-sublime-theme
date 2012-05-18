@@ -39,7 +39,8 @@
         // Hover tab setting
         "layer2.texture": "Theme - Zukitwo/Zukitwo Dark/tab-hover.png",
         "layer2.inner_margin": [18, 4],
-        "layer2.opacity": 0.0
+        //  Hover tab smooth fadeout
+        "layer2.opacity": { "target": 0.0, "speed": 5, "interpolation": "smoothstep" }
     },
     {
         // Tab close state
@@ -571,13 +572,27 @@
         // Pressed button setup
         "layer1.texture": "Theme - Zukitwo/Zukitwo Dark/btn-large-on.png",
         "layer1.opacity": 0.0,
-        "layer1.inner_margin": [6, 6]
+        "layer1.inner_margin": [6, 6],
+        // Hover button setup
+        "layer2.texture": "Theme - Zukitwo/Zukitwo Dark/btn-large-hover.png",
+        "layer2.opacity": { "target": 0.0, "speed": 5, "interpolation": "smoothstep" },
+        "layer2.inner_margin": [6, 6]
     },
     {
         // Pressed button state
         "class": "button_control",
         "attributes": ["pressed"],
         "layer1.opacity": 1.0
+    },
+    {
+        "class": "button_control",
+        "attributes": ["pressed", "hover"],
+        "layer2.opacity": 0.0
+    },
+    {
+        "class": "button_control",
+        "attributes": ["hover"],
+        "layer2.opacity": 1.0
     },
 
 //
@@ -724,7 +739,10 @@
         "layer0.texture": "Theme - Zukitwo/Zukitwo Dark/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "content_margin": [4, 4]
+        "content_margin": [4, 4],
+        "layer1.texture": "Theme - Zukitwo/Zukitwo Dark/btn-small-hover.png",
+        "layer1.inner_margin": [0, 0],
+        "layer1.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" }
     },
     // Button group left
     {
@@ -746,6 +764,12 @@
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Zukitwo/Zukitwo Dark/btn-small.png",
         "layer0.opacity": 1.0
+    },
+    // Button hover
+    {
+        "class": "icon_button_control",
+        "attributes": ["hover"],
+        "layer1.opacity": 1.0
     },
 
 //
